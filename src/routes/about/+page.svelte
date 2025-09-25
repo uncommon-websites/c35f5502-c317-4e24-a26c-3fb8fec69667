@@ -11,94 +11,88 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "User empowerment",
+			description: "Returning control to the people driving growth, focusing on empowerment over dependency."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Built for brands",
+			description: "Emphasizing practical utility over technical complexity, creating tools that actually work for consumer marketers."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Community-centric",
+			description: "Building lasting relationships and turning user activity into acquisition fuel through direct connections."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Own your audience"
+	subtitle="Growth without gatekeepers"
+	imageSrc="/generated/image-a-modern-team-of-diverse-professionals-c.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Growth marketing teams face an impossible choice: pay rising acquisition costs to platforms that own your audience, or watch sustainable growth slip away. While brands pour millions into Facebook and Google ads, they're left with fragmented data and rented relationships that disappear the moment they stop paying. The digital advertising landscape has become a trap where success breeds dependency.",
+		"Freequency breaks this cycle by transforming Web3 infrastructure into familiar user experiences that actually work for consumer brands. Our plug-and-play SDKs give growth teams blockchain-powered audience ownership without requiring any Web3 expertise. From gaming studios to sports leagues, brands can finally capture every fan interaction—on-chain and off—into a unified identity system that turns user activity into sustainable acquisition fuel.",
+		"We're building a future where brands don't chase audiences but connect with them directly through owned relationships and first-party data. With Freequency, every Discord chat, in-game decision, and community interaction becomes part of a persistent user passport that powers cross-platform growth. This isn't just another marketing tool—it's the infrastructure that gives control back to the people actually driving digital progress."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Built by growth experts"
+	subtitle="Who understand the challenges you face"
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Alex Rodriguez",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
+			bio: "Former growth lead at gaming studios, experienced the pain of fragmented user data firsthand.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
+			name: "Sam Chen",
+			position: "Head of Product",
+			bio: "Ex-Meta growth engineer focused on building Web3 tools that feel like Web2 experiences.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			name: "Taylor Kim",
+			position: "Chief Technology Officer",
+			bio: "Blockchain infrastructure specialist making complex technology accessible to consumer brands.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	title="Strategic partnerships"
+	subtitle="Powered by leading Web3 infrastructure"
 	stakeholders={[
 		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "Berachain",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "Web3 Growth Partners",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Gaming Ventures",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to own your audience?"
+	subtitle="Stop renting, start owning"
+	description="Join the gaming studios and sports leagues already using Freequency to transform user activity into sustainable acquisition fuel."
 />
