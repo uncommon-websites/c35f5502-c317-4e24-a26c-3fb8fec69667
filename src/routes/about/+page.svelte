@@ -11,16 +11,20 @@
 	// Constants
 	const values = [
 		{
-			title: "User empowerment",
-			description: "Returning control to the people driving growth, focusing on empowerment over dependency."
+			title: "Built for brands, not blockchain",
+			description: "We emphasize practical utility over technical complexity, making Web3 accessible without requiring any blockchain knowledge."
 		},
 		{
-			title: "Built for brands",
-			description: "Emphasizing practical utility over technical complexity, creating tools that actually work for consumer marketers."
+			title: "Mission-driven empowerment",
+			description: "Returning control to the people driving growth, we focus on empowering brands with direct audience ownership instead of platform dependency."
 		},
 		{
-			title: "Community-centric",
-			description: "Building lasting relationships and turning user activity into acquisition fuel through direct connections."
+			title: "Innovation with purpose",
+			description: "Disrupting the status quo by transforming fragmented user relationships into owned, unified identities that fuel sustainable growth."
+		},
+		{
+			title: "Community-first approach",
+			description: "Building lasting relationships through our plug-and-play ecosystem that turns every user interaction into acquisition fuel and competitive advantage."
 		}
 	];
 </script>
@@ -43,56 +47,23 @@
 <!-- Our Culture Section -->
 <Culture {values} />
 
-<!-- StakeholderGrid Section -->
-<StakeholderGrid
-	stakeholderType="team"
-	title="Built by growth experts"
-	subtitle="Who understand the challenges you face"
-	stakeholders={[
-		{
-			name: "Alex Rodriguez",
-			position: "Founder & CEO",
-			bio: "Former growth lead at gaming studios, experienced the pain of fragmented user data firsthand.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Sam Chen",
-			position: "Head of Product",
-			bio: "Ex-Meta growth engineer focused on building Web3 tools that feel like Web2 experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Kim",
-			position: "Chief Technology Officer",
-			bio: "Blockchain infrastructure specialist making complex technology accessible to consumer brands.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
 <StakeholderGrid
 	stakeholderType="investor"
-	title="Strategic partnerships"
-	subtitle="Powered by leading Web3 infrastructure"
+	title="Powered by leading infrastructure"
+	subtitle="Strategic partnership driving Web3 accessibility"
 	stakeholders={[
 		{
 			name: "Berachain",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Web3 Growth Partners",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Gaming Ventures",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			position: "Primary L1 Partner",
+			image: "https://logo.clearbit.com/berachain.com"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to own your audience?"
-	subtitle="Stop renting, start owning"
-	description="Join the gaming studios and sports leagues already using Freequency to transform user activity into sustainable acquisition fuel."
+	title="Ready to build direct relationships?"
+	subtitle="Growth without gatekeepers"
+	description="Join forward-thinking brands using Freequency to transform fragmented user data into unified audience ownership. No blockchain expertise required—just plug-and-play SDKs that turn every interaction into sustainable acquisition fuel."
+	imageSrc="/generated/image-a-professional-growth-marketing-director.webp"
 />
