@@ -25,60 +25,66 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Freequency transforms how brands connect with their audiences by unifying fragmented user data into direct, owned relationships. We help growth marketing teams at gaming studios, sports leagues, and consumer brands reduce platform dependency while turning every user interaction into acquisition fuel. Our plug-and-play Web3 infrastructure requires zero blockchain knowledge—just plug in and watch your audience ownership grow."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maya Chen",
+			position: "VP of Growth Marketing",
+			company: "Nexus Gaming",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Freequency cut our customer acquisition costs by 60% within six months. Instead of chasing audiences across fragmented platforms, we now own direct relationships with over 2 million gamers. The SDK integration took our team just two days—no blockchain expertise needed.",
+			image: "/generated/image-professional-headshot-of-an-asian-americ.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "Head of Fan Engagement",
+			company: "Thunder Sports League",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before Freequency, we were losing 40% of our fan data to platform changes and iOS updates. Now we have unified fan identities that generated $3.2M in direct revenue last quarter alone. The risk of depending on third-party platforms is completely eliminated.",
+			image: "/generated/image-professional-headshot-of-a-black-male-in.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sofia Rodriguez",
+			position: "Chief Marketing Officer",
+			company: "Arena Entertainment",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"What used to take our team 3 weeks to launch—coordinating campaigns across Discord, social media, and our app—now takes 3 days with Freequency's unified system. We've saved over 200 hours monthly while doubling our engagement rates. It's like having a growth team that never sleeps.",
+			image: "/generated/image-professional-headshot-of-a-latina-female.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for brands, not blockchain"
+	subtitle="Transform fragmented user interactions into direct audience ownership with infrastructure that just works"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Direct audience ownership",
+			description: "Turn platform-dependent followers into owned relationships with unified cross-platform fan identities that eliminate dependency on external algorithms."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Zero blockchain complexity",
+			description: "Plug-and-play SDK integration requires no Web3 knowledge—your team can implement sophisticated blockchain infrastructure in minutes, not months."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Unified data intelligence",
+			description: "Consolidate fragmented user data across channels into actionable insights with AI-driven personalization that reduces acquisition costs by up to 40%."
+		},
+		{
+			title: "Growth-ready identities",
+			description: "Convert every user interaction into acquisition fuel with persistent identities that compound engagement and drive sustainable growth across your ecosystem."
+		},
+		{
+			title: "Familiar user experiences",
+			description: "Deliver Web3 benefits through interfaces your users already understand, eliminating friction while building deeper brand loyalty and community engagement."
+		},
+		{
+			title: "Proof of Liquidity infrastructure",
+			description: "Built on Berachain's innovative consensus mechanism, our EVM-compatible platform ensures scalable, cost-effective transactions that grow with your audience."
 		}
 	]}
 />
