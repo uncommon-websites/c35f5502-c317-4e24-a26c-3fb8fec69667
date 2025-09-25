@@ -88,5 +88,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Start owning your growth"
+	subtitle="Acquisition costs are rising while platforms keep more of your data"
+	description="Freequency helps you reduce customer acquisition costs by turning fragmented user data into direct, owned relationships. Get plug-and-play Web3 infrastructure that requires zero blockchain knowledge—just plug in and watch your audience ownership grow."
+	imageSrc="/generated/image-a-professional-growth-marketing-director.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Book a live demo",
+			variant: "primary"
+		},
+		{
+			href: "/get-started",
+			label: "Get started free",
+			variant: "secondary"
+		}
+	]}
+/>
