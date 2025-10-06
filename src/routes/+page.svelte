@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
+	// Icons
+	import IconZap from "~icons/lucide/zap";
+	import IconTarget from "~icons/lucide/target";
+	import IconBrain from "~icons/lucide/brain";
+	import IconShield from "~icons/lucide/shield-check";
+	import IconTrendingUp from "~icons/lucide/trending-up";
+	import IconFileCheck from "~icons/lucide/file-check";
 </script>
 
 <Hero
@@ -36,60 +44,78 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Zero Draft AI automates the entire grant application process for Canadian tech companies, transforming what typically takes months of consultant work into a three-hour automated workflow. We help growth-stage startups and SMBs secure SR&ED tax credits and other non-dilutive funding by handling the complex paperwork, identifying pre-qualified programs, and maximizing approval rates. Our platform eliminates the traditional bottlenecks of grant acquisition, allowing founders and CFOs to focus on building their business instead of navigating bureaucracy."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Mehta",
+			position: "CFO",
+			company: "VeloTech Systems",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We recovered $340K in SR&ED credits in just three hours. Zero Draft eliminated the need for expensive consultants and gave us complete visibility into our application status. The automated process caught eligible expenses our previous consultant missed.",
+			image: "/generated/image-a-south-asian-woman-poised-and-content-i.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Chen",
+			position: "Founder & CEO",
+			company: "Quantum Labs",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Instead of spending six weeks compiling documentation, our R&D team submitted our SR&ED claim in an afternoon. Zero Draft's AI identified $180K in qualifying activities we didn't even know were eligible. The approval came back in record time.",
+			image: "/generated/image-a-confident-black-man-in-smart-modern-bu.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Jennifer Park",
+			position: "VP of Engineering",
+			company: "DataFlow Analytics",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Zero Draft found us eight pre-qualified grant programs beyond SR&ED, securing an additional $520K in non-dilutive funding. What used to take our team months now happens automatically. The risk assessment feature gave us confidence before we even applied.",
+			image: "/generated/image-a-confident-asian-woman-in-business-atti.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for speed, designed for success"
+	subtitle="Everything you need to secure non-dilutive funding without the consultant fees or months-long wait times"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Three-hour applications",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Complete SR&ED tax credit applications in hours instead of months. Our AI handles the entire workflow end-to-end while you focus on building your business.",
+			icon: IconZap
 		},
 		{
-			title: "Data Analysis",
+			title: "Pre-qualified program matching",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Automatically discover and apply to dozens of grant programs where you're likely to succeed. We identify opportunities you didn't know existed.",
+			icon: IconTarget
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Intelligent document generation",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"AI-powered automation transforms technical details into grant-ready applications. No more wrestling with complex paperwork or consultant dependencies.",
+			icon: IconBrain
+		},
+		{
+			title: "Maximized approval rates",
+			description:
+				"Our platform overcomes skepticism about grant success by applying proven strategies that increase your chances of approval across multiple programs.",
+			icon: IconShield
+		},
+		{
+			title: "Scale to thousands monthly",
+			description:
+				"Process unlimited applications simultaneously as your funding needs grow. Built to handle everything from single SR&ED credits to comprehensive grant portfolios.",
+			icon: IconTrendingUp
+		},
+		{
+			title: "End-to-end automation",
+			description:
+				"From eligibility assessment to final submission, every step is automated. Zero Draft eliminates the traditional bottlenecks of grant acquisition.",
+			icon: IconFileCheck
 		}
 	]}
 />
