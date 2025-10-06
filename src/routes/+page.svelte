@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Get your grants approved in hours, not months"
+	subtitle="Transform complex SR&ED applications into automated three-hour processes. Zero Draft AI eliminates consultant dependency and captures non-dilutive funding for Canadian tech companies."
+	imageSrc="/generated/image-a-canadian-founder-sits-at-a-modern-offi.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start your application"
+		},
+		{
+			href: "/about",
+			label: "See how it works"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by innovative Canadian companies"
+	logoUrls={[
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/wealthsimple.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/hootsuite.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
