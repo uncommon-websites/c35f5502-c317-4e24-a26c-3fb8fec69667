@@ -93,5 +93,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop losing funding to complexity"
+	subtitle="Start winning with automation"
+	description="Canadian tech companies waste months navigating grant applications while competitors secure funding in hours. Zero Draft AI automatically identifies and applies to dozens of pre-qualified programs where you're likely to succeed. Get your SR&ED tax credits approved without consultant fees."
+	imageSrc="/generated/image-a-canadian-business-founder-in-a-modern-.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Automate your first application",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "See approval rates",
+			variant: "secondary"
+		}
+	]}
+/>
