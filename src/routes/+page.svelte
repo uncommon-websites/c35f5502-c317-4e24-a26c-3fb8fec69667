@@ -4,32 +4,28 @@
 	import Features from "$lib/components/layout/Features.svelte";
 	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
-	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import QualificationSection from "$lib/components/layout/QualificationSection.svelte";
+	import CaseStudy from "$lib/components/layout/CaseStudy.svelte";
+	import HowItWorks from "$lib/components/layout/HowItWorks.svelte";
+	import FAQ from "$lib/components/layout/FAQ.svelte";
 
 	// Icons
-	import IconZap from "~icons/lucide/zap";
-	import IconTarget from "~icons/lucide/target";
-	import IconBrain from "~icons/lucide/brain";
-	import IconShield from "~icons/lucide/shield-check";
-	import IconTrendingUp from "~icons/lucide/trending-up";
-	import IconFileCheck from "~icons/lucide/file-check";
+	import IconClock from "~icons/lucide/clock";
+	import IconShieldCheck from "~icons/lucide/shield-check";
+	import IconDollarSign from "~icons/lucide/dollar-sign";
 </script>
 
 <Hero
 	centered={false}
-	title="Get your grants approved in hours, not months"
-	subtitle="Transform complex SR&ED applications into automated three-hour processes. Zero Draft AI eliminates consultant dependency and captures non-dilutive funding for Canadian tech companies."
+	title="Claim millions in SR&ED faster than ever"
+	subtitle="Audit-ready claims. White-glove service. Trusted by enterprise finance teams."
 	imageSrc="/generated/image-a-canadian-founder-sits-at-a-modern-offi.webp"
 	callsToAction={[
 		{
 			href: "/contact",
-			label: "Start your application"
-		},
-		{
-			href: "/about",
-			label: "See how it works"
+			label: "Book my free assessment"
 		}
 	]}
 />
@@ -44,97 +40,154 @@
 />
 
 <Summary
-	title="What we do"
-	text="Zero Draft AI automates the entire grant application process for Canadian tech companies, transforming what typically takes months of consultant work into a three-hour automated workflow. We help growth-stage startups and SMBs secure SR&ED tax credits and other non-dilutive funding by handling the complex paperwork, identifying pre-qualified programs, and maximizing approval rates. Our platform eliminates the traditional bottlenecks of grant acquisition, allowing founders and CFOs to focus on building their business instead of navigating bureaucracy."
+	title="SR&ED in two hours, not eighty"
+	text="ZeroDraft helps Canadian enterprises unlock millions in non-dilutive funding without bottlenecks, wasted time, or compliance risk that normally come with filing. Every claim is produced faster, more accurately, and fully audit-ready. Our licensed CPAs and engineers review every submission, maintaining one of the highest success rates in the industry."
+/>
+
+<QualificationSection
+	title="Built for Canadian innovators"
+	qualifications={[
+		{ text: "Has salaried technical staff" },
+		{ text: "Develops new products, software, or IP" },
+		{ text: "Is incorporated and pays taxes in Canada" }
+	]}
+	valueProps={[
+		{
+			title: "Save weeks of effort",
+			description: "Your team spends less than 2 hours on a claim that can yield $500K+ in tax credits.",
+			icon: IconClock
+		},
+		{
+			title: "Accuracy you can trust",
+			description: "Every claim is validated by our licensed CPAs to ensure it's audit-ready.",
+			icon: IconShieldCheck
+		},
+		{
+			title: "No bloated 15%+ fees",
+			description: "We don't charge inflated 15%+ commissions like traditional SR&ED consultants.",
+			icon: IconDollarSign
+		}
+	]}
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Priya Mehta",
-			position: "CFO",
-			company: "VeloTech Systems",
+			name: "Jason T.",
+			position: "CEO",
+			company: "AgriCore",
 			quote:
-				"We recovered $340K in SR&ED credits in just three hours. Zero Draft eliminated the need for expensive consultants and gave us complete visibility into our application status. The automated process caught eligible expenses our previous consultant missed.",
-			image: "/generated/image-a-south-asian-woman-poised-and-content-i.webp"
-		},
-		{
-			name: "Marcus Chen",
-			position: "Founder & CEO",
-			company: "Quantum Labs",
-			quote:
-				"Instead of spending six weeks compiling documentation, our R&D team submitted our SR&ED claim in an afternoon. Zero Draft's AI identified $180K in qualifying activities we didn't even know were eligible. The approval came back in record time.",
+				"We used to spend 40+ hours writing grants. With ZeroDraft, we got $120K back in 6 days—with barely any time invested.",
 			image: "/generated/image-a-confident-black-man-in-smart-modern-bu.webp"
 		},
 		{
-			name: "Jennifer Park",
-			position: "VP of Engineering",
-			company: "DataFlow Analytics",
+			name: "Priya N.",
+			position: "CTO",
+			company: "Cannabis Tech Startup",
 			quote:
-				"Zero Draft found us eight pre-qualified grant programs beyond SR&ED, securing an additional $520K in non-dilutive funding. What used to take our team months now happens automatically. The risk assessment feature gave us confidence before we even applied.",
-			image: "/generated/image-a-confident-asian-woman-in-business-atti.webp"
+				"I thought we wouldn't qualify. Turns out we were eligible for three different programs. The process was smoother than I imagined.",
+			image: "/generated/image-a-south-asian-woman-poised-and-content-i.webp"
 		}
 	]}
 />
 
-<Features
-	title="Built for speed, designed for success"
-	subtitle="Everything you need to secure non-dilutive funding without the consultant fees or months-long wait times"
-	features={[
+<section class="bg-background">
+	<div class="section-px section-py container mx-auto">
+		<div class="mx-auto grid max-w-4xl gap-12 text-center">
+			<div class="grid gap-6">
+				<h2 class="text-title1">Why ZeroDraft is the fastest path to SR&ED success</h2>
+				<div class="text-headline text-emphasis-low mx-auto max-w-3xl space-y-4">
+					<p>
+						When your SR&ED process runs the way it should, everything moves faster. You scale with
+						confidence, hire without hesitation, and stop guessing when funding will land. Filing
+						becomes a formality, not an annual disruption.
+					</p>
+					<p>
+						But when it doesn't work? You don't just lose money. You risk a CRA audit and potential
+						blacklisting from the SR&ED program.
+					</p>
+				</div>
+			</div>
+			<a
+				href="/contact"
+				class="bg-primary text-primary-foreground hover:bg-primary/90 mx-auto inline-flex items-center justify-center rounded-(--radius) px-8 py-3 text-callout transition-colors"
+			>
+				Book my free assessment
+			</a>
+		</div>
+	</div>
+</section>
+
+<CaseStudy
+	title="How SearchEye recovered $190,000 after a rejection"
+	description="When SearchEye's initial SR&ED claim was outright rejected, it triggered a full CRA audit. Weeks of stress, 30+ hours of document requests, and a major operational distraction. We stepped in, rebuilt their claim from the ground up, and got them approved with $190,000 with less than five hours of work from their team."
+	result="$190,000"
+	cta={{ href: "/contact", label: "See how we did it" }}
+	imageSrc="/generated/image-a-diverse-professional-business-team-in-.webp"
+/>
+
+<HowItWorks
+	title="Transparent. Efficient. Proven."
+	subtitle="We built the most cost-effective SR&ED process in the industry, powered by automation and CPA oversight. No inflated commissions, and no hidden costs. Just faster, audit-ready claims. Here's how it works:"
+	steps={[
 		{
-			title: "Three-hour applications",
-			description:
-				"Complete SR&ED tax credit applications in hours instead of months. Our AI handles the entire workflow end-to-end while you focus on building your business.",
-			icon: IconZap
+			number: 1,
+			title: "You tell us about your business on a 15-min call"
 		},
 		{
-			title: "Pre-qualified program matching",
-			description:
-				"Automatically discover and apply to dozens of grant programs where you're likely to succeed. We identify opportunities you didn't know existed.",
-			icon: IconTarget
+			number: 2,
+			title: "Our platform + CPA experts provide audit-ready documentation"
 		},
 		{
-			title: "Intelligent document generation",
-			description:
-				"AI-powered automation transforms technical details into grant-ready applications. No more wrestling with complex paperwork or consultant dependencies.",
-			icon: IconBrain
+			number: 3,
+			title: "You submit your claim"
+		}
+	]}
+	guarantee="Guaranteed timeline: 5 days from intake to filing"
+/>
+<FAQ
+	faqs={[
+		{
+			question: "How much can I get?",
+			answer: "$500K+ depending on your business and scope of R&D."
 		},
 		{
-			title: "Maximized approval rates",
-			description:
-				"Our platform overcomes skepticism about grant success by applying proven strategies that increase your chances of approval across multiple programs.",
-			icon: IconShield
+			question: "Do I need technical documentation?",
+			answer: "No. Our engineers will extract the details needed to submit a compliant claim."
 		},
 		{
-			title: "Scale to thousands monthly",
-			description:
-				"Process unlimited applications simultaneously as your funding needs grow. Built to handle everything from single SR&ED credits to comprehensive grant portfolios.",
-			icon: IconTrendingUp
+			question: "What if I've already applied in the past?",
+			answer: "We'll review your past claims and may be able to find missed opportunities."
 		},
 		{
-			title: "End-to-end automation",
-			description:
-				"From eligibility assessment to final submission, every step is automated. Zero Draft eliminates the traditional bottlenecks of grant acquisition.",
-			icon: IconFileCheck
+			question: "Is my information secure?",
+			answer: "Yes. We use bank-level encryption and secure data storage protocols to protect your financial and technical data."
+		},
+		{
+			question: "Who has access to my data?",
+			answer: "Only our vetted CPAs. We never outsource to unauthorized third parties."
+		},
+		{
+			question: "Is your documentation audit-proof?",
+			answer: "Yes. Every claim is prepared with CRA guidelines in mind and reviewed by licensed professionals."
+		},
+		{
+			question: "Have your claims ever been rejected?",
+			answer: "We maintain a high success rate. If there's an issue, we'll revise and resubmit at no cost to you."
 		}
 	]}
 />
-<AboutTeaser />
+
 <CallToAction
-	title="Stop losing funding to complexity"
-	subtitle="Start winning with automation"
-	description="Canadian tech companies waste months navigating grant applications while competitors secure funding in hours. Zero Draft AI automatically identifies and applies to dozens of pre-qualified programs where you're likely to succeed. Get your SR&ED tax credits approved without consultant fees."
+	title="It's your money"
+	subtitle="Don't leave it on the table"
+	description="Reduce filing time by more than 95 percent, improve compliance, and recover millions in non-dilutive funding without tying up your team for months."
 	imageSrc="/generated/image-a-canadian-business-founder-in-a-modern-.webp"
 	callsToAction={[
 		{
 			href: "/contact",
-			label: "Automate your first application",
+			label: "Book my free consultation now",
 			variant: "primary"
-		},
-		{
-			href: "/about",
-			label: "See approval rates",
-			variant: "secondary"
 		}
 	]}
 />

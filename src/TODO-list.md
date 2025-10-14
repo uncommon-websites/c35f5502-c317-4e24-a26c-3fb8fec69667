@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-10-07T13:16:38.091Z -->
+<!-- Updated: 2025-10-14T22:48:59.742Z -->
 
 # Current Todo List State
 
@@ -47,3 +47,14 @@
 - [x] Run comprehensive error check and fix all issues
 - [x] Update app.html to change data-theme from 'dark' to 'light'
 - [x] Verify the change is complete
+- [x] Update Hero section with new headline, subheadline, and CTA
+- [x] Update Summary section to 'SR&ED in two hours, not eighty' with new copy
+- [x] Create new 'Built for Canadian innovators' section with qualification criteria and value props
+- [x] Update Features section to 'Why Us' section with new title and description
+- [x] Create new Case Study section for SearchEye story
+- [x] Create new How It Works section with 4-step process
+- [x] Update Testimonials section with 2 new testimonials
+- [x] Create new FAQs section with 7 questions
+- [x] Update CallToAction section with new footer CTA copy
+- [x] Generate appropriate new images for sections
+- [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values
